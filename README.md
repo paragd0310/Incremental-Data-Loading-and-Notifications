@@ -1,5 +1,8 @@
 # Bootcamp Project 5 - Scenario 2 Documentation
 
+![image](https://github.com/user-attachments/assets/b62a9391-6e44-43d0-9359-5bc1d958794c)
+
+
 ## Title: Time-Based Notification Using Azure Data Factory (Scenario 2)
 
 ###  Role: Data Engineer
