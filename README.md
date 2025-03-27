@@ -1,18 +1,13 @@
-# Time-Based Notification
-
-
-![image](https://github.com/user-attachments/assets/d5403b6f-a53f-4f34-8fb8-0bc79765b8be)
-
 # Bootcamp Project 5 - Scenario 2 Documentation
 
-## Title: Time-Based Notification Using Azure Data Factory
+## Title: Time-Based Notification Using Azure Data Factory (Scenario 2)
 
 ###  Role: Data Engineer
 Implement a time-sensitive notification system in Azure Data Factory that alerts the team (via Slack) when the pipeline succeeds or fails **only between 7 AM and 9 AM UTC**.
 
 ---
 
-## Tools & Services Used:
+##  Tools & Services Used:
 - **Azure Data Factory**
 - **Slack (with Incoming Webhooks)**
 - **GitHub (ADF version control)**
@@ -62,7 +57,7 @@ To create a pipeline in ADF that:
 
 ---
 
-## Slack Webhook Setup
+##  Slack Webhook Setup
 - Created Slack app `ADF Notifier`
 - Enabled **Incoming Webhooks** in [https://api.slack.com/apps](https://api.slack.com/apps)
 - Target Channel: `#adf-alerts`
@@ -70,14 +65,14 @@ To create a pipeline in ADF that:
 
 ---
 
-##  Git Integration
+## Git Integration
 - GitHub Repo: `Incremental-Data-Loading-and-Notifications`
-- Branch: `feature/jira-123`
+- Branch: `main`
 - Steps:
   1. Connected GitHub from ADF Studio
-  2. Switched to `feature/jira-123` branch
-  3. Saved pipeline to branch
-  4. Created PR and merged to `main`
+  2. Switched to `main` branch
+  3. Saved pipeline
+  4. Pushed commit: `Adding pipeline: TimeBased_Notification_Pipeline`
   5. Published ARM template to `adf_publish`
 
 ---
@@ -104,15 +99,15 @@ To create a pipeline in ADF that:
 - Slack messages now show:
   - Success alert between 7–9 AM UTC
   - Skipped alert outside the time window
-- All activities validated and saved to GitHub via proper branching strategy
+- All activities validated and saved to GitHub via proper strategy
 - Pipeline published and ready for production use
 
 ---
 
-## Deliverables
+##  Deliverables
 - Pipeline: `TimeBased_Notification_Pipeline`
-- GitHub Branch: `feature/jira-123`
+- GitHub Repo: `Incremental-Data-Loading-and-Notifications`
+- Branch: `main`
 - Slack Channel: `#adf-alerts`
-
 
 
