@@ -1,9 +1,9 @@
-# Bootcamp Project 5 - Scenario 2 Documentation
+# Bootcamp Project 5 - Scenario 1 Documentation
 
 ![image](https://github.com/user-attachments/assets/b62a9391-6e44-43d0-9359-5bc1d958794c)
 
 
-## Title: Time-Based Notification Using Azure Data Factory (Scenario 2)
+## Title: Time-Based Notification Using Azure Data Factory (Scenario 1)
 
 ###  Role: Data Engineer
 Implement a time-sensitive notification system in Azure Data Factory that alerts the team (via Slack) when the pipeline succeeds or fails **only between 7 AM and 9 AM UTC**.
